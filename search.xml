@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello Hexo]]></title>
+    <title><![CDATA[Python 之禅]]></title>
     <url>%2F2018%2F05%2F28%2FHello-Hexo%2F</url>
-    <content type="text"><![CDATA[欢迎光临累了， 可以休息一下， 哈哈哈]]></content>
+    <content type="text"><![CDATA[欢迎光临累了， 可以休息一下， 哈哈哈 Beautiful is better than ugly.Simple is better than complex.Complex is better than complicated.Readability counts.There should be one–and preferably only one–obvious way to do it.Now is better than never. 在python中，用方括号([])来表示列表，并用逗号来分隔其中的元素。12bicycles = ['trek', 'cannondale', 'redline', 'specialized']print(bicycles) 如果你让Python将列表打印出来，Python将打印列表内的内部表示，包括方括号：1['trek', 'cannondale', 'redline', 'specialized'] 正确方式1print(bicycles[0]) Python只返回该元素，而不包括方括号和引号1trek Python为访问最后一个列表元素提供了一个特殊语法。通过将索引指定为-1，可让Python返回最后一个列表元素：1print(bicycles[-1]) 这种约定也适用于其他负数索引，例如：索引-2返回倒数第二个列表元素，索引-3返回倒数第三个列表元素，以此类推。]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
