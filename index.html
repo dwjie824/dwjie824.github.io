@@ -317,7 +317,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/05/28/Hello-Hexo/" itemprop="url">Python 之禅</a></h1>
+                <a class="post-title-link" href="/2018/05/28/Hello-Hexo/" itemprop="url">Python编程基础篇</a></h1>
         
 
         <div class="post-meta">
@@ -390,8 +390,12 @@
 
       
         
-          <p>欢迎光临<br>累了， 可以休息一下， 哈哈哈</p>
-<p><strong>Beautiful is better than ugly.</strong><br><strong>Simple is better than complex.</strong><br><strong>Complex is better than complicated.</strong><br><strong>Readability counts.</strong><br><strong>There should be one–and preferably only one–obvious way to do it.</strong><br><strong>Now is better than never.</strong></p>
+          <p>在python中，用方括号 ([]) 来表示列表，并用逗号来分隔其中的元素。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">bicycles = [<span class="string">'trek'</span>, <span class="string">'cannondale'</span>, <span class="string">'redline'</span>, <span class="string">'specialized'</span>]</span><br><span class="line">print(bicycles)</span><br></pre></td></tr></table></figure></p>
+<p>如果你让Python将列表打印出来， Python将打印列表内的内部表示，包括方括号：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">'trek'</span>, <span class="string">'cannondale'</span>, <span class="string">'redline'</span>, <span class="string">'specialized'</span>]</span><br></pre></td></tr></table></figure></p>
+<p>正确方式<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(bicycles[<span class="number">0</span>])</span><br></pre></td></tr></table></figure></p>
+<p>Python只返回该元素， 而不包括方括号和引号<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">trek</span><br></pre></td></tr></table></figure></p>
+<p>Python为访问最后一个列表元素提供了一个特殊语法。通过将索引指定为-1，可让Python返回最后一个列表元素：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(bicycles[<span class="number">-1</span>])</span><br></pre></td></tr></table></figure></p>
+<p>这种约定也适用于其他负数索引，例如：索引-2返回倒数第二个列表元素，索引-3返回倒数第三个列表元素，以此类推。</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/05/28/Hello-Hexo/#more" rel="contents">
